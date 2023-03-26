@@ -13,7 +13,7 @@ if len(sys.argv) >= 2:
         if arg[1] == "-l": target = arg[2]
         if arg[0] == "-6": mode = "ipv6"
 
-file = "https://raw.githubusercontent.com/Ne00n/Looking-Glass/master/data/everything.json"
+file = "https://raw.githubusercontent.com/iGlebon/Looking-Glass/master/data/everything.json"
 
 def error(run):
     print(f"Retrying {run+1} of 4")
